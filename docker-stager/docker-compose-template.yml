@@ -1,0 +1,7 @@
+web:
+  image: docker.ddm.io/<%= repoName %>:<%= tag %>
+  ports:
+    - "<%= hostPort %>:3000"
+  environment:
+    ENV: stage
+  restart: always

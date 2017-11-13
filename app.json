@@ -1,0 +1,12 @@
+{
+    "name": "plagscan-api",
+    "description": "An API for interacting with the PlagScan service",
+    "repository": "https://github.com/deseretdigital/plagscan-api",
+    "image": "heroku/nodejs",
+    "env": {
+        "PORT": {
+            "description": "Web port this runs on",
+            "value": 80
+        }
+    }
+}
