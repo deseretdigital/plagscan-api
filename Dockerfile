@@ -4,6 +4,6 @@ ADD ./package.json /code/package.json
 RUN npm install
 ADD ./app /code/app
 ADD ./lib /code/lib
-CMD npm run start
+CMD NODE_ENV=production npm run start
 EXPOSE 80
 EXPOSE 443
